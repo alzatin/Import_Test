@@ -6,7 +6,26 @@
     "uniqueID": 1718226468582,
     "ioValues": [],
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1718226477226,
+            "ioValues": []
+        },
+        {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.3142580019398642,
+            "y": 0.5924764890282131,
+            "uniqueID": 1718226489676,
+            "ioValues": [],
+            "fileName": "90107A043_316 Stainless Steel Washer.step",
+            "type": "STEP"
+        }
+    ],
     "allConnectors": [],
     "unitsIndex": 0,
     "fileTypeVersion": 1,
