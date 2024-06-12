@@ -8,22 +8,22 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "Import",
+            "name": "Import",
+            "x": 0.3161978661493695,
+            "y": 0.6144200626959248,
+            "uniqueID": 1718226489676,
+            "ioValues": [],
+            "fileName": "90107A043_316 Stainless Steel Washer.step",
+            "type": "STEP"
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1718226477226,
             "ioValues": []
-        },
-        {
-            "atomType": "Import",
-            "name": "Import",
-            "x": 0.3142580019398642,
-            "y": 0.5924764890282131,
-            "uniqueID": 1718226489676,
-            "ioValues": [],
-            "fileName": "90107A043_316 Stainless Steel Washer.step",
-            "type": "STEP"
         }
     ],
     "allConnectors": [],
