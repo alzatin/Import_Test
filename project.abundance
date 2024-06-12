@@ -1,0 +1,14 @@
+{
+    "atomType": "Molecule",
+    "name": "Import_Test",
+    "x": 0,
+    "y": 0,
+    "uniqueID": 1718226468582,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsIndex": 0,
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1
+}
