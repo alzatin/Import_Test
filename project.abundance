@@ -197,6 +197,20 @@
                     "ioValue": 1718393855403
                 }
             ]
+        },
+        {
+            "atomType": "Equation",
+            "name": "x",
+            "x": 0.562560620756547,
+            "y": 0.755485893416928,
+            "uniqueID": 1718394443751,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 1
+                }
+            ],
+            "currentEquation": "x"
         }
     ],
     "allConnectors": [
