@@ -10,8 +10,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.37051406401551895,
-            "y": 0.4482758620689655,
+            "x": 0.2609117361784675,
+            "y": 0.3385579937304075,
             "uniqueID": 1718230232676,
             "ioValues": [
                 {
@@ -23,8 +23,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5858389912706111,
-            "y": 0.4702194357366772,
+            "x": 0.478176527643065,
+            "y": 0.34796238244514105,
             "uniqueID": 1718231244141,
             "ioValues": [
                 {
@@ -40,8 +40,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.7710960232783706,
-            "y": 0.329153605015674,
+            "x": 0.7604267701260912,
+            "y": 0.3166144200626959,
             "uniqueID": 1718376921146,
             "ioValues": [
                 {
@@ -49,14 +49,6 @@
                     "ioValue": 1718231244141
                 }
             ]
-        },
-        {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 1718226477226,
-            "ioValues": []
         },
         {
             "atomType": "Tag",
@@ -78,8 +70,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.7032007759456838,
-            "y": 0.7178683385579937,
+            "x": 0.7012609117361784,
+            "y": 0.6990595611285267,
             "uniqueID": 1718384178415,
             "ioValues": [],
             "BOMitem": {
@@ -88,6 +80,14 @@
                 "costUSD": 0,
                 "source": "www.example.com"
             }
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1718226477226,
+            "ioValues": []
         }
     ],
     "allConnectors": [
