@@ -8,14 +8,6 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 1718226477226,
-            "ioValues": []
-        },
-        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.37051406401551895,
@@ -48,8 +40,8 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.6847720659553831,
-            "y": 0.554858934169279,
+            "x": 0.667313288069835,
+            "y": 0.34796238244514105,
             "uniqueID": 1718376921146,
             "ioValues": [
                 {
@@ -57,6 +49,14 @@
                     "ioValue": 1718231244141
                 }
             ]
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1718226477226,
+            "ioValues": []
         }
     ],
     "allConnectors": [
