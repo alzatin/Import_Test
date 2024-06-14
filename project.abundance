@@ -57,6 +57,37 @@
             "y": 0.5,
             "uniqueID": 1718226477226,
             "ioValues": []
+        },
+        {
+            "atomType": "Tag",
+            "name": "Add Tag",
+            "x": 0.539282250242483,
+            "y": 0.6959247648902821,
+            "uniqueID": 1718384147734,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                },
+                {
+                    "name": "tag",
+                    "ioValue": "Tag String"
+                }
+            ]
+        },
+        {
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.7032007759456838,
+            "y": 0.7178683385579937,
+            "uniqueID": 1718384178415,
+            "ioValues": [],
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+            }
         }
     ],
     "allConnectors": [
