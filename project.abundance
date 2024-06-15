@@ -117,8 +117,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.5063045586808923,
-            "y": 0.6175548589341693,
+            "x": 0.5111542192046556,
+            "y": 0.6238244514106583,
             "uniqueID": 1718456471755,
             "ioValues": [
                 {
@@ -159,19 +159,17 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.6634335596508244,
-            "y": 0.7711598746081505,
+            "x": 0.6692531522793403,
+            "y": 0.7742946708463949,
             "uniqueID": 1718456502754,
             "ioValues": [
                 {
                     "name": "geometry",
                     "ioValue": 1718456471755
-                },
-                {
-                    "name": "tag",
-                    "ioValue": "cutLayout"
                 }
-            ]
+            ],
+            "tag": "beta",
+            "tagIndex": 2
         },
         {
             "atomType": "Output",
