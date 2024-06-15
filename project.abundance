@@ -10,8 +10,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.23375363724539283,
-            "y": 0.3103448275862069,
+            "x": 0.23278370514064015,
+            "y": 0.3072100313479624,
             "uniqueID": 1718392278010,
             "ioValues": [
                 {
@@ -35,8 +35,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.09117361784675072,
-            "y": 0.438871473354232,
+            "x": 0.08826382153249272,
+            "y": 0.38557993730407525,
             "uniqueID": 1718230232676,
             "ioValues": [
                 {
@@ -48,8 +48,8 @@
         {
             "atomType": "Tag",
             "name": "beta",
-            "x": 0.3860329776915616,
-            "y": 0.32601880877742945,
+            "x": 0.39088263821532493,
+            "y": 0.31347962382445144,
             "uniqueID": 1718457659286,
             "ioValues": [
                 {
@@ -61,48 +61,6 @@
                 "beta"
             ],
             "cutTag": false
-        },
-        {
-            "atomType": "CutLayout",
-            "name": "Cut Layout",
-            "x": 0.5712900096993211,
-            "y": 0.2664576802507837,
-            "uniqueID": 1718393884153,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718393374092
-                },
-                {
-                    "name": "Spacing",
-                    "ioValue": 5
-                }
-            ]
-        },
-        {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.6450048496605238,
-            "y": 0.16300940438871472,
-            "uniqueID": 1718393006370,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1718393374092
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 10
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 10
-                }
-            ]
         },
         {
             "atomType": "Tag",
@@ -142,13 +100,13 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.6944713870029099,
-            "y": 0.4075235109717868,
+            "x": 0.7429679922405431,
+            "y": 0.4012539184952978,
             "uniqueID": 1718392427003,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1718393006370
+                    "ioValue": ""
                 },
                 {
                     "name": "xDist",
@@ -167,8 +125,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.5111542192046556,
-            "y": 0.6269592476489029,
+            "x": 0.5063045586808923,
+            "y": 0.6175548589341693,
             "uniqueID": 1718456471755,
             "ioValues": [
                 {
@@ -184,8 +142,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.667313288069835,
-            "y": 0.7523510971786834,
+            "x": 0.6634335596508244,
+            "y": 0.7711598746081505,
             "uniqueID": 1718456502754,
             "ioValues": [
                 {
@@ -205,6 +163,23 @@
             "y": 0.5,
             "uniqueID": 1718226477226,
             "ioValues": []
+        },
+        {
+            "atomType": "Tag",
+            "name": "messing",
+            "x": 0.588748787584869,
+            "y": 0.3322884012539185,
+            "uniqueID": 1718458523667,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                }
+            ],
+            "tags": [
+                "messing"
+            ],
+            "cutTag": false
         }
     ],
     "allConnectors": [
@@ -228,13 +203,6 @@
             "ap2Primary": false,
             "ap1ID": 1718457659286,
             "ap2ID": 1718456471755
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1718393006370,
-            "ap2ID": 1718392427003
         },
         {
             "ap1Name": "geometry",
