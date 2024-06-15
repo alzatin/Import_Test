@@ -59,7 +59,8 @@
             ],
             "tags": [
                 "beta"
-            ]
+            ],
+            "cutTag": false
         },
         {
             "atomType": "CutLayout",
@@ -106,8 +107,8 @@
         {
             "atomType": "Tag",
             "name": ",cutLayout",
-            "x": 0.3045586808923375,
-            "y": 0.7021943573667712,
+            "x": 0.3006789524733269,
+            "y": 0.677115987460815,
             "uniqueID": 1718393855403,
             "ioValues": [
                 {
@@ -118,7 +119,8 @@
             "tags": [
                 "",
                 "cutLayout"
-            ]
+            ],
+            "cutTag": true
         },
         {
             "atomType": "Rectangle",
