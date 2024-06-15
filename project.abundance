@@ -64,6 +64,23 @@
         },
         {
             "atomType": "Tag",
+            "name": "messing",
+            "x": 0.588748787584869,
+            "y": 0.3322884012539185,
+            "uniqueID": 1718458523667,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                }
+            ],
+            "tags": [
+                "messing"
+            ],
+            "cutTag": false
+        },
+        {
+            "atomType": "Tag",
             "name": ",cutLayout",
             "x": 0.3006789524733269,
             "y": 0.677115987460815,
@@ -98,6 +115,23 @@
             ]
         },
         {
+            "atomType": "Join",
+            "name": "Assembly",
+            "x": 0.5063045586808923,
+            "y": 0.6175548589341693,
+            "uniqueID": 1718456471755,
+            "ioValues": [
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 1718393855403
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 1718457659286
+                }
+            ]
+        },
+        {
             "atomType": "Move",
             "name": "Move",
             "x": 0.7429679922405431,
@@ -119,23 +153,6 @@
                 {
                     "name": "zDist",
                     "ioValue": 0
-                }
-            ]
-        },
-        {
-            "atomType": "Join",
-            "name": "Assembly",
-            "x": 0.5063045586808923,
-            "y": 0.6175548589341693,
-            "uniqueID": 1718456471755,
-            "ioValues": [
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 1718393855403
-                },
-                {
-                    "name": "3D shape 3",
-                    "ioValue": 1718457659286
                 }
             ]
         },
@@ -163,23 +180,6 @@
             "y": 0.5,
             "uniqueID": 1718226477226,
             "ioValues": []
-        },
-        {
-            "atomType": "Tag",
-            "name": "messing",
-            "x": 0.588748787584869,
-            "y": 0.3322884012539185,
-            "uniqueID": 1718458523667,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": ""
-                }
-            ],
-            "tags": [
-                "messing"
-            ],
-            "cutTag": false
         }
     ],
     "allConnectors": [
