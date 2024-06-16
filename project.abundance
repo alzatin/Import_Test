@@ -128,7 +128,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1718226477226,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1718461533278
+                }
+            ]
         },
         {
             "atomType": "Extrude",
@@ -169,6 +174,13 @@
             "ap2Primary": true,
             "ap1ID": 1718393384061,
             "ap2ID": 1718393855403
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1718461533278,
+            "ap2ID": 1718226477226
         }
     ],
     "unitsIndex": 0,
