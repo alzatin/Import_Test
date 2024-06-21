@@ -26,6 +26,14 @@
             ]
         },
         {
+            "atomType": "Input",
+            "name": "name1",
+            "x": 0.013333333333333334,
+            "y": 0.5893416927899686,
+            "uniqueID": 1718562389185,
+            "ioValues": []
+        },
+        {
             "atomType": "Move",
             "name": "Move",
             "x": 0.4314477468839885,
@@ -120,6 +128,24 @@
             ]
         },
         {
+            "atomType": "Equation",
+            "name": "x + y",
+            "x": 0.42090124640460214,
+            "y": 0.6956521739130435,
+            "uniqueID": 1718741345015,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 11
+                },
+                {
+                    "name": "y",
+                    "ioValue": 1
+                }
+            ],
+            "currentEquation": "x + y"
+        },
+        {
             "atomType": "Move",
             "name": "Move",
             "x": 0.7458777885548011,
@@ -145,27 +171,6 @@
             ]
         },
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 1718226477226,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1718934761034
-                }
-            ]
-        },
-        {
-            "atomType": "Input",
-            "name": "name1",
-            "x": 0.013333333333333334,
-            "y": 0.5893416927899686,
-            "uniqueID": 1718562389185,
-            "ioValues": []
-        },
-        {
             "atomType": "Export",
             "name": "Export",
             "x": 0.8187919463087249,
@@ -179,29 +184,24 @@
             ]
         },
         {
-            "atomType": "Equation",
-            "name": "x + y",
-            "x": 0.42090124640460214,
-            "y": 0.6956521739130435,
-            "uniqueID": 1718741345015,
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1718226477226,
             "ioValues": [
                 {
-                    "name": "x",
-                    "ioValue": 11
-                },
-                {
-                    "name": "y",
-                    "ioValue": 1
+                    "name": "number or geometry",
+                    "ioValue": 1718935016428
                 }
-            ],
-            "currentEquation": "x + y"
+            ]
         },
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.6514161220043573,
-            "y": 0.7857142857142857,
-            "uniqueID": 1718934761034,
+            "x": 0.7854030501089324,
+            "y": 0.5062111801242236,
+            "uniqueID": 1718935016428,
             "ioValues": [
                 {
                     "name": "geometry",
@@ -223,6 +223,13 @@
             "ap2Primary": true,
             "ap1ID": 1718230232676,
             "ap2ID": 1718392278010
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 1718562389185,
+            "ap2ID": 1718230232676
         },
         {
             "ap1Name": "geometry",
@@ -250,14 +257,7 @@
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1718461533278,
-            "ap2ID": 1718934761034
-        },
-        {
-            "ap1Name": "number or geometry",
-            "ap2Name": "diameter",
-            "ap2Primary": false,
-            "ap1ID": 1718562389185,
-            "ap2ID": 1718230232676
+            "ap2ID": 1718935016428
         },
         {
             "ap1Name": "result",
@@ -270,7 +270,7 @@
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 1718934761034,
+            "ap1ID": 1718935016428,
             "ap2ID": 1718226477226
         }
     ],
