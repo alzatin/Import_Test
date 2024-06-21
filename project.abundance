@@ -105,8 +105,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5675934803451582,
-            "y": 0.6304347826086957,
+            "x": 0.5773420479302832,
+            "y": 0.515527950310559,
             "uniqueID": 1718461533278,
             "ioValues": [
                 {
@@ -199,8 +199,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.644880174291939,
-            "y": 0.8074534161490683,
+            "x": 0.6514161220043573,
+            "y": 0.7857142857142857,
             "uniqueID": 1718934761034,
             "ioValues": [
                 {
@@ -276,5 +276,13 @@
     ],
     "unitsIndex": 0,
     "fileTypeVersion": 1,
+    "compiledBom": [
+        {
+            "BOMitemName": "name",
+            "numberNeeded": 1,
+            "costUSD": 0,
+            "source": "www.example.com"
+        }
+    ],
     "filetypeVersion": 1
 }
