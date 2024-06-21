@@ -153,7 +153,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1718461533278
+                    "ioValue": 1718934761034
                 }
             ]
         },
@@ -195,6 +195,25 @@
                 }
             ],
             "currentEquation": "x + y"
+        },
+        {
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.644880174291939,
+            "y": 0.8074534161490683,
+            "uniqueID": 1718934761034,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718461533278
+                }
+            ],
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com"
+            }
         }
     ],
     "allConnectors": [
@@ -221,17 +240,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 1718461533278,
-            "ap2ID": 1718226477226
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": 1718461533278,
             "ap2ID": 1718566001919
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1718461533278,
+            "ap2ID": 1718934761034
         },
         {
             "ap1Name": "number or geometry",
@@ -246,6 +265,13 @@
             "ap2Primary": false,
             "ap1ID": 1718741345015,
             "ap2ID": 1718461533278
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1718934761034,
+            "ap2ID": 1718226477226
         }
     ],
     "unitsIndex": 0,
